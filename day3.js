@@ -20,7 +20,7 @@
 //  console.log("5");
  async function data() {
     await console.log("2:message");
-   const response=fetch("./studentdata.json");
+   const response=await fetch("./studentdata.json");
    console.log(response.status);
    const std=(await response).json();
    return std;
@@ -29,8 +29,8 @@
  }
  console.log("1:message");
  data()
-.then(()=>{
+.then((res)=>{
 console.log(res);
-}).catch(()=>{
-    console.log()
+}).catch((err)=>{
+    console.log(err)
 })
