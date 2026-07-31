@@ -32,7 +32,7 @@ new Promise(function(resolve,reject){
 setTimeout(function(){
     let msg=true;
     if(!msg)
-    console.log("asynchronous tsk...");
+    console.log("asynchronous task...");
     resolve();
 })    
 
