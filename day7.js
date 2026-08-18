@@ -9,7 +9,7 @@ async function createFile(){
     }
     catch(error)
     {
-      console.log("error.......")
+      console.log("error......")
     }
 }then()
 import fs from "fs/promises";
