@@ -2,7 +2,7 @@
 import http from "http";
 const server=http.createServer((req,res)=>{
     res.writeHead(200,{"content-type":"text/html"});
-    res.write("<h1>this is myy own server")
+    res.write("<h1>this is myy ownnn server")
     res.end();
 })
 server.listen(3000,()=>{
