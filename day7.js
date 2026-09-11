@@ -35,7 +35,7 @@ async function updateFile() {
     try {
         await fs.appendFile(
             fileName,
-            "\nCollege: ABES Engineering College............",
+            "\nCollege: ABES Engineering College.......................",
             "utf8"
         );
 
