@@ -1,20 +1,16 @@
 {
-  "name": "fsd",
+  "name": "fsd-backend",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/prateekchaurasiya2007-kld/FSD#readme",
-  "bugs": {
-    "url": "https://github.com/prateekchaurasiya2007-kld/FSD/issues"
-  },
+  "description": "Full Stack Development 2nd Year Coursework",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prateekchaurasiya2007-kld/FSD.git"
   },
+  "author": "Prateek Chaurasiya",
   "license": "ISC",
-  "author": "",
   "type": "module",
-  "main": "app.js",
+  "main": "class/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node class/app.js"
   }
 }
