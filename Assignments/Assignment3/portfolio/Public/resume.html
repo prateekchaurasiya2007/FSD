@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Prateek Chaurasiya | Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>">
+</head>
+
+<body style="background-color: #0b0f19;">
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <span class="logo-badge">PC</span>
+                <span class="logo-text">Prateek Chaurasiya</span>
+            </a>
+
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="resume-wrapper">
+        <div class="resume-toolbar">
+            <a href="index.html" class="btn-secondary" style="padding: 10px 20px;">
+                ← Back to Portfolio
+            </a>
+            <button onclick="window.print()" class="btn-primary" style="border: none; cursor: pointer; padding: 10px 22px;">
+                🖨️ Print / Download Resume (PDF)
+            </button>
+        </div>
+
+        <div class="resume-paper">
+            <!-- Header -->
+            <div class="resume-header">
+                <div class="resume-title">
+                    <h1>Prateek Chaurasiya</h1>
+                    <p>Computer Science & Engineering Student | Full Stack Web Developer</p>
+                </div>
+                <ul class="resume-contact-list">
+                    <li><strong>Email:</strong> <a href="mailto:prateekchaurasiya2007@gmail.com">prateekchaurasiya2007@gmail.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/prateekchaurasiya2007-kld" target="_blank">github.com/prateekchaurasiya2007-kld</a></li>
+                    <li><strong>FSD Repo:</strong> <a href="https://github.com/prateekchaurasiya2007-kld/FSD" target="_blank">github.com/prateekchaurasiya2007-kld/FSD</a></li>
+                    <li><strong>Location:</strong> Uttar Pradesh, India</li>
+                </ul>
+            </div>
+
+            <!-- Professional Summary -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Professional Summary</h3>
+                <p style="font-size: 0.95rem; color: #334155;">
+                    Motivated and detail-oriented Computer Science undergraduate at ABES Engineering College with practical experience in Full Stack Web Development, RESTful API architecture, and asynchronous server programming using Node.js and Express. Strong foundation in Data Structures and Algorithms in C++, object-oriented design, and modern version control workflows.
+                </p>
+            </div>
+
+            <!-- Education -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Education</h3>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <span>Bachelor of Technology in Computer Science and Engineering</span>
+                        <span>2023 – 2027</span>
+                    </div>
+                    <div class="resume-item-sub">ABES Engineering College, Ghaziabad, UP (2nd Year)</div>
+                    <ul>
+                        <li>Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming (C++), Full Stack Development (FSD), Database Management, Operating Systems.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Technical Skills</h3>
+                <div class="resume-skills-group">
+                    <strong>Programming Languages:</strong> C++, JavaScript (ES6+), HTML5, CSS3, C
+                </div>
+                <div class="resume-skills-group">
+                    <strong>Backend & Frameworks:</strong> Node.js, Express.js, RESTful APIs, HTTP Modules, Node.js File System (fs/promises)
+                </div>
+                <div class="resume-skills-group">
+                    <strong>Web Technologies:</strong> Responsive Web Design, Flexbox, CSS Grid, JSON, DOM Manipulation
+                </div>
+                <div class="resume-skills-group">
+                    <strong>Developer Tools & Platforms:</strong> Git, GitHub, VS Code, Postman, npm
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="resume-section">
+                <h3 class="resume-section-title">Key Projects</h3>
+
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <span>Student Records Management REST API</span>
+                        <span>Node.js, HTTP Module, File System (fs)</span>
+                    </div>
+                    <div class="resume-item-sub">Full Stack Development Coursework - Assignment 1</div>
+                    <ul>
+                        <li>Engineered a pure Node.js RESTful API using the native HTTP module without external web frameworks.</li>
+                        <li>Implemented asynchronous CRUD operations reading and updating student records in local JSON storage via `fs/promises`.</li>
+                        <li>Handled dynamic query parameters, payload chunk buffering, and standard HTTP response status codes.</li>
+                    </ul>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <span>Product Catalog REST API</span>
+                        <span>Express.js, Node.js, CommonJS</span>
+                    </div>
+                    <div class="resume-item-sub">Full Stack Development Coursework - Assignment 2</div>
+                    <ul>
+                        <li>Built an Express.js backend server handling product inventory routes, data validation, and parameter parsing.</li>
+                        <li>Configured middleware pipelines for JSON body parsing, route logging, and modular routing controllers.</li>
+                    </ul>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <span>Personal Developer Portfolio & Resume Web Server</span>
+                        <span>Express.js, HTML5, CSS3, Responsive Design</span>
+                    </div>
+                    <div class="resume-item-sub">Full Stack Development Coursework - Assignment 3</div>
+                    <ul>
+                        <li>Created a responsive, modern dark-themed portfolio and printable resume page served statically through an Express server.</li>
+                        <li>Engineered glassmorphic UI components, smooth scroll navigation, mobile-first layouts, and print stylesheets.</li>
+                    </ul>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <span>Data Structures & Algorithm Implementations</span>
+                        <span>C++, STL</span>
+                    </div>
+                    <div class="resume-item-sub">Academic & Independent Practice</div>
+                    <ul>
+                        <li>Implemented fundamental data structures including Singly/Doubly Linked Lists, Stacks, Queues, Binary Trees, and sorting algorithms in C++.</li>
+                        <li>Focused on algorithmic time/space complexity optimization and clean object-oriented implementations.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Soft Skills & Interests -->
+            <div class="resume-section" style="margin-bottom: 0;">
+                <h3 class="resume-section-title">Soft Skills & Additional Information</h3>
+                <div class="resume-skills-group">
+                    <strong>Core Strengths:</strong> Analytical Thinking, Problem Solving, Rapid Learner, Collaborative Team Member
+                </div>
+                <div class="resume-skills-group">
+                    <strong>Languages:</strong> English, Hindi
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            © 2026 <strong>Prateek Chaurasiya</strong> | Resume for Assignment 3 FSD
+        </p>
+    </footer>
+
+</body>
+
+</html>
