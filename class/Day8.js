@@ -1,23 +1,26 @@
-import fs from "fs/promises"
-const fileName="student.txt";
-async function createFile(){
-    try{
-    await fs.writeFile(
-        fileName,"Name: Prateek\nEmail:abc@gmail.com,B.tech"
-    );
-    console.log("file created..")
-    }
-    catch(error)
-    {
-      console.log("error......")
-    }
-}then()
-import fs from "fs/promises";
+// CRUD using async and await
+// CRUD using async and await
 
+import fs from "fs/promises";
 const fileName = "student.txt";
 
+// 1. CREATE
+async function createFile() {
+    try {
+        await fs.writeFile(
+            fileName,
+            "Name: Satwik\nCourse: B.Tech CSE",
+            "utf8"
+        );
 
-// 2. READ
+        console.log("File created successfully");
+    } catch (error) {
+        console.log("Error:", error.message);
+    }
+}
+
+
+// 2. READ 
 async function readFile() {
     try {
         const data = await fs.readFile(fileName, "utf8");
@@ -35,7 +38,7 @@ async function updateFile() {
     try {
         await fs.appendFile(
             fileName,
-            "\nCollege: ABES Engineering College.......................",
+            "\nCollege: ABES Engineering College............",
             "utf8"
         );
 
@@ -62,12 +65,9 @@ async function deleteFile() {
 async function main() {
 
     await createFile();
-
     await readFile();
-
     await updateFile();
-
-    //await deleteFile();
+    await deleteFile();
 }
 
 main();
