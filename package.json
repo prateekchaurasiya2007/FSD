@@ -4,13 +4,14 @@
   "description": "Full Stack Development 2nd Year Coursework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prateekchaurasiya2007-kld/FSD.git"
+    "url": "git+https://github.com/prateekchaurasiya2007/FSD.git"
   },
   "author": "Prateek Chaurasiya",
   "license": "ISC",
   "type": "module",
   "main": "class/app.js",
   "scripts": {
-    "start": "node class/app.js"
+    "start": "node class/app.js",
+    "assignment3": "node Assignments/Assignment3/portfolio/server.js"
   }
 }
